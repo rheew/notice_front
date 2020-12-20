@@ -66,7 +66,7 @@ const actions = {
     }
 }
 
-conset store = new Vuex.Store({
+const store = new Vuex.Store({
     stric: true, //process.env.NODE_ENV !== 'production',
     mutations,
     state,
