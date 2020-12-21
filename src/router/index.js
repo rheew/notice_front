@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import { RuleTester } from 'eslint'
+import Home from '@/components/Home'
+import Register from '@/components/Register'
 
 Vue.use(Router)
 
